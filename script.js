@@ -32,6 +32,234 @@
  "vrPolyfillScale": 0.5,
  "minWidth": 20,
  "definitions": [{
+ "frames": [
+  {
+   "front": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/f/0/{row}_{column}.jpg",
+      "colCount": 4,
+      "class": "TiledImageResourceLevel",
+      "width": 2048,
+      "tags": "ondemand",
+      "rowCount": 4,
+      "height": 2048
+     },
+     {
+      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/f/1/{row}_{column}.jpg",
+      "colCount": 2,
+      "class": "TiledImageResourceLevel",
+      "width": 1024,
+      "tags": "ondemand",
+      "rowCount": 2,
+      "height": 1024
+     },
+     {
+      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/f/2/{row}_{column}.jpg",
+      "colCount": 1,
+      "class": "TiledImageResourceLevel",
+      "width": 512,
+      "tags": [
+       "ondemand",
+       "preload"
+      ],
+      "rowCount": 1,
+      "height": 512
+     }
+    ]
+   },
+   "class": "CubicPanoramaFrame",
+   "top": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/u/0/{row}_{column}.jpg",
+      "colCount": 4,
+      "class": "TiledImageResourceLevel",
+      "width": 2048,
+      "tags": "ondemand",
+      "rowCount": 4,
+      "height": 2048
+     },
+     {
+      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/u/1/{row}_{column}.jpg",
+      "colCount": 2,
+      "class": "TiledImageResourceLevel",
+      "width": 1024,
+      "tags": "ondemand",
+      "rowCount": 2,
+      "height": 1024
+     },
+     {
+      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/u/2/{row}_{column}.jpg",
+      "colCount": 1,
+      "class": "TiledImageResourceLevel",
+      "width": 512,
+      "tags": [
+       "ondemand",
+       "preload"
+      ],
+      "rowCount": 1,
+      "height": 512
+     }
+    ]
+   },
+   "right": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/r/0/{row}_{column}.jpg",
+      "colCount": 4,
+      "class": "TiledImageResourceLevel",
+      "width": 2048,
+      "tags": "ondemand",
+      "rowCount": 4,
+      "height": 2048
+     },
+     {
+      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/r/1/{row}_{column}.jpg",
+      "colCount": 2,
+      "class": "TiledImageResourceLevel",
+      "width": 1024,
+      "tags": "ondemand",
+      "rowCount": 2,
+      "height": 1024
+     },
+     {
+      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/r/2/{row}_{column}.jpg",
+      "colCount": 1,
+      "class": "TiledImageResourceLevel",
+      "width": 512,
+      "tags": [
+       "ondemand",
+       "preload"
+      ],
+      "rowCount": 1,
+      "height": 512
+     }
+    ]
+   },
+   "back": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/b/0/{row}_{column}.jpg",
+      "colCount": 4,
+      "class": "TiledImageResourceLevel",
+      "width": 2048,
+      "tags": "ondemand",
+      "rowCount": 4,
+      "height": 2048
+     },
+     {
+      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/b/1/{row}_{column}.jpg",
+      "colCount": 2,
+      "class": "TiledImageResourceLevel",
+      "width": 1024,
+      "tags": "ondemand",
+      "rowCount": 2,
+      "height": 1024
+     },
+     {
+      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/b/2/{row}_{column}.jpg",
+      "colCount": 1,
+      "class": "TiledImageResourceLevel",
+      "width": 512,
+      "tags": [
+       "ondemand",
+       "preload"
+      ],
+      "rowCount": 1,
+      "height": 512
+     }
+    ]
+   },
+   "thumbnailUrl": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_t.jpg",
+   "bottom": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/d/0/{row}_{column}.jpg",
+      "colCount": 4,
+      "class": "TiledImageResourceLevel",
+      "width": 2048,
+      "tags": "ondemand",
+      "rowCount": 4,
+      "height": 2048
+     },
+     {
+      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/d/1/{row}_{column}.jpg",
+      "colCount": 2,
+      "class": "TiledImageResourceLevel",
+      "width": 1024,
+      "tags": "ondemand",
+      "rowCount": 2,
+      "height": 1024
+     },
+     {
+      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/d/2/{row}_{column}.jpg",
+      "colCount": 1,
+      "class": "TiledImageResourceLevel",
+      "width": 512,
+      "tags": [
+       "ondemand",
+       "preload"
+      ],
+      "rowCount": 1,
+      "height": 512
+     }
+    ]
+   },
+   "left": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/l/0/{row}_{column}.jpg",
+      "colCount": 4,
+      "class": "TiledImageResourceLevel",
+      "width": 2048,
+      "tags": "ondemand",
+      "rowCount": 4,
+      "height": 2048
+     },
+     {
+      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/l/1/{row}_{column}.jpg",
+      "colCount": 2,
+      "class": "TiledImageResourceLevel",
+      "width": 1024,
+      "tags": "ondemand",
+      "rowCount": 2,
+      "height": 1024
+     },
+     {
+      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/l/2/{row}_{column}.jpg",
+      "colCount": 1,
+      "class": "TiledImageResourceLevel",
+      "width": 512,
+      "tags": [
+       "ondemand",
+       "preload"
+      ],
+      "rowCount": 1,
+      "height": 512
+     }
+    ]
+   }
+  }
+ ],
+ "vfov": 180,
+ "thumbnailUrl": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_t.jpg",
+ "hfovMin": "150%",
+ "id": "panorama_D835B754_CC42_2ECD_41DA_496D670D19DA",
+ "label": "Banheiro Social",
+ "class": "Panorama",
+ "hfovMax": 130,
+ "partial": false,
+ "hfov": 360,
+ "pitch": 0
+},
+{
  "items": [
   {
    "media": "this.panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C",
@@ -102,232 +330,191 @@
  "class": "PlayList"
 },
 {
- "frames": [
+ "items": [
   {
-   "front": {
-    "class": "ImageResource",
-    "levels": [
-     {
-      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/f/0/{row}_{column}.jpg",
-      "colCount": 4,
-      "class": "TiledImageResourceLevel",
-      "width": 2048,
-      "tags": "ondemand",
-      "rowCount": 4,
-      "height": 2048
-     },
-     {
-      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/f/1/{row}_{column}.jpg",
-      "colCount": 2,
-      "class": "TiledImageResourceLevel",
-      "width": 1024,
-      "tags": "ondemand",
-      "rowCount": 2,
-      "height": 1024
-     },
-     {
-      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/f/2/{row}_{column}.jpg",
-      "colCount": 1,
-      "class": "TiledImageResourceLevel",
-      "width": 512,
-      "tags": [
-       "ondemand",
-       "preload"
-      ],
-      "rowCount": 1,
-      "height": 512
-     }
-    ]
-   },
-   "class": "CubicPanoramaFrame",
-   "top": {
-    "class": "ImageResource",
-    "levels": [
-     {
-      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/u/0/{row}_{column}.jpg",
-      "colCount": 4,
-      "class": "TiledImageResourceLevel",
-      "width": 2048,
-      "tags": "ondemand",
-      "rowCount": 4,
-      "height": 2048
-     },
-     {
-      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/u/1/{row}_{column}.jpg",
-      "colCount": 2,
-      "class": "TiledImageResourceLevel",
-      "width": 1024,
-      "tags": "ondemand",
-      "rowCount": 2,
-      "height": 1024
-     },
-     {
-      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/u/2/{row}_{column}.jpg",
-      "colCount": 1,
-      "class": "TiledImageResourceLevel",
-      "width": 512,
-      "tags": [
-       "ondemand",
-       "preload"
-      ],
-      "rowCount": 1,
-      "height": 512
-     }
-    ]
-   },
-   "right": {
-    "class": "ImageResource",
-    "levels": [
-     {
-      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/r/0/{row}_{column}.jpg",
-      "colCount": 4,
-      "class": "TiledImageResourceLevel",
-      "width": 2048,
-      "tags": "ondemand",
-      "rowCount": 4,
-      "height": 2048
-     },
-     {
-      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/r/1/{row}_{column}.jpg",
-      "colCount": 2,
-      "class": "TiledImageResourceLevel",
-      "width": 1024,
-      "tags": "ondemand",
-      "rowCount": 2,
-      "height": 1024
-     },
-     {
-      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/r/2/{row}_{column}.jpg",
-      "colCount": 1,
-      "class": "TiledImageResourceLevel",
-      "width": 512,
-      "tags": [
-       "ondemand",
-       "preload"
-      ],
-      "rowCount": 1,
-      "height": 512
-     }
-    ]
-   },
-   "back": {
-    "class": "ImageResource",
-    "levels": [
-     {
-      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/b/0/{row}_{column}.jpg",
-      "colCount": 4,
-      "class": "TiledImageResourceLevel",
-      "width": 2048,
-      "tags": "ondemand",
-      "rowCount": 4,
-      "height": 2048
-     },
-     {
-      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/b/1/{row}_{column}.jpg",
-      "colCount": 2,
-      "class": "TiledImageResourceLevel",
-      "width": 1024,
-      "tags": "ondemand",
-      "rowCount": 2,
-      "height": 1024
-     },
-     {
-      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/b/2/{row}_{column}.jpg",
-      "colCount": 1,
-      "class": "TiledImageResourceLevel",
-      "width": 512,
-      "tags": [
-       "ondemand",
-       "preload"
-      ],
-      "rowCount": 1,
-      "height": 512
-     }
-    ]
-   },
-   "thumbnailUrl": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_t.jpg",
-   "bottom": {
-    "class": "ImageResource",
-    "levels": [
-     {
-      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/d/0/{row}_{column}.jpg",
-      "colCount": 4,
-      "class": "TiledImageResourceLevel",
-      "width": 2048,
-      "tags": "ondemand",
-      "rowCount": 4,
-      "height": 2048
-     },
-     {
-      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/d/1/{row}_{column}.jpg",
-      "colCount": 2,
-      "class": "TiledImageResourceLevel",
-      "width": 1024,
-      "tags": "ondemand",
-      "rowCount": 2,
-      "height": 1024
-     },
-     {
-      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/d/2/{row}_{column}.jpg",
-      "colCount": 1,
-      "class": "TiledImageResourceLevel",
-      "width": 512,
-      "tags": [
-       "ondemand",
-       "preload"
-      ],
-      "rowCount": 1,
-      "height": 512
-     }
-    ]
-   },
-   "left": {
-    "class": "ImageResource",
-    "levels": [
-     {
-      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/l/0/{row}_{column}.jpg",
-      "colCount": 4,
-      "class": "TiledImageResourceLevel",
-      "width": 2048,
-      "tags": "ondemand",
-      "rowCount": 4,
-      "height": 2048
-     },
-     {
-      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/l/1/{row}_{column}.jpg",
-      "colCount": 2,
-      "class": "TiledImageResourceLevel",
-      "width": 1024,
-      "tags": "ondemand",
-      "rowCount": 2,
-      "height": 1024
-     },
-     {
-      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/l/2/{row}_{column}.jpg",
-      "colCount": 1,
-      "class": "TiledImageResourceLevel",
-      "width": 512,
-      "tags": [
-       "ondemand",
-       "preload"
-      ],
-      "rowCount": 1,
-      "height": 512
-     }
-    ]
-   }
+   "media": "this.panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C",
+   "class": "PanoramaPlayListItem",
+   "begin": "this.setEndToItemIndex(this.ThumbnailList_034EDD7A_0D3B_3991_41A5_D706671923C0_playlist, 0, 1)",
+   "player": "this.MainViewerPanoramaPlayer",
+   "camera": "this.panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_camera"
+  },
+  {
+   "media": "this.panorama_DFC082C8_CC42_27C6_41D2_A0AC6B299343",
+   "class": "PanoramaPlayListItem",
+   "begin": "this.setEndToItemIndex(this.ThumbnailList_034EDD7A_0D3B_3991_41A5_D706671923C0_playlist, 1, 2)",
+   "player": "this.MainViewerPanoramaPlayer",
+   "camera": "this.panorama_DFC082C8_CC42_27C6_41D2_A0AC6B299343_camera"
+  },
+  {
+   "media": "this.panorama_DFB2B5BE_CC42_6DBD_41B7_6D4C6522A85E",
+   "class": "PanoramaPlayListItem",
+   "begin": "this.setEndToItemIndex(this.ThumbnailList_034EDD7A_0D3B_3991_41A5_D706671923C0_playlist, 2, 3)",
+   "player": "this.MainViewerPanoramaPlayer",
+   "camera": "this.panorama_DFB2B5BE_CC42_6DBD_41B7_6D4C6522A85E_camera"
+  },
+  {
+   "media": "this.panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E",
+   "class": "PanoramaPlayListItem",
+   "begin": "this.setEndToItemIndex(this.ThumbnailList_034EDD7A_0D3B_3991_41A5_D706671923C0_playlist, 3, 4)",
+   "player": "this.MainViewerPanoramaPlayer",
+   "camera": "this.panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_camera"
+  },
+  {
+   "media": "this.panorama_D835B754_CC42_2ECD_41DA_496D670D19DA",
+   "class": "PanoramaPlayListItem",
+   "begin": "this.setEndToItemIndex(this.ThumbnailList_034EDD7A_0D3B_3991_41A5_D706671923C0_playlist, 4, 5)",
+   "player": "this.MainViewerPanoramaPlayer",
+   "camera": "this.panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_camera"
+  },
+  {
+   "media": "this.panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4",
+   "class": "PanoramaPlayListItem",
+   "begin": "this.setEndToItemIndex(this.ThumbnailList_034EDD7A_0D3B_3991_41A5_D706671923C0_playlist, 5, 6)",
+   "player": "this.MainViewerPanoramaPlayer",
+   "camera": "this.panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_camera"
+  },
+  {
+   "media": "this.panorama_DFC061B8_CC42_E245_41D7_54F78D087AB0",
+   "class": "PanoramaPlayListItem",
+   "begin": "this.setEndToItemIndex(this.ThumbnailList_034EDD7A_0D3B_3991_41A5_D706671923C0_playlist, 6, 7)",
+   "player": "this.MainViewerPanoramaPlayer",
+   "camera": "this.panorama_DFC061B8_CC42_E245_41D7_54F78D087AB0_camera"
+  },
+  {
+   "media": "this.panorama_DFBCBA72_CC42_26C5_41D4_D88AAD0BDF68",
+   "class": "PanoramaPlayListItem",
+   "begin": "this.setEndToItemIndex(this.ThumbnailList_034EDD7A_0D3B_3991_41A5_D706671923C0_playlist, 7, 8)",
+   "player": "this.MainViewerPanoramaPlayer",
+   "camera": "this.panorama_DFBCBA72_CC42_26C5_41D4_D88AAD0BDF68_camera"
+  },
+  {
+   "media": "this.panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82",
+   "class": "PanoramaPlayListItem",
+   "begin": "this.setEndToItemIndex(this.ThumbnailList_034EDD7A_0D3B_3991_41A5_D706671923C0_playlist, 8, 0)",
+   "player": "this.MainViewerPanoramaPlayer",
+   "camera": "this.panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_camera"
   }
  ],
- "vfov": 180,
- "thumbnailUrl": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_t.jpg",
- "hfovMin": "150%",
- "id": "panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E",
- "label": "Circula\u00e7\u00e3o",
- "class": "Panorama",
- "hfovMax": 130,
- "partial": false,
- "hfov": 360,
- "pitch": 0
+ "id": "ThumbnailList_034EDD7A_0D3B_3991_41A5_D706671923C0_playlist",
+ "class": "PlayList"
+},
+{
+ "initialPosition": {
+  "yaw": 127.83,
+  "class": "PanoramaCameraPosition",
+  "pitch": 0
+ },
+ "class": "PanoramaCamera",
+ "initialSequence": {
+  "movements": [
+   {
+    "easing": "cubic_in",
+    "yawDelta": 18.5,
+    "class": "DistancePanoramaCameraMovement",
+    "yawSpeed": 7.96
+   },
+   {
+    "easing": "linear",
+    "yawDelta": 323,
+    "class": "DistancePanoramaCameraMovement",
+    "yawSpeed": 7.96
+   },
+   {
+    "easing": "cubic_out",
+    "yawDelta": 18.5,
+    "class": "DistancePanoramaCameraMovement",
+    "yawSpeed": 7.96
+   }
+  ],
+  "class": "PanoramaCameraSequence",
+  "restartMovementOnUserInteraction": false
+ },
+ "automaticZoomSpeed": 10,
+ "id": "camera_F6FA3639_D30B_9034_41C6_B585FCA3AAD8"
+},
+{
+ "initialPosition": {
+  "yaw": 0,
+  "class": "PanoramaCameraPosition",
+  "pitch": 0
+ },
+ "class": "PanoramaCamera",
+ "initialSequence": {
+  "movements": [
+   {
+    "easing": "cubic_in",
+    "yawDelta": 18.5,
+    "class": "DistancePanoramaCameraMovement",
+    "yawSpeed": 7.96
+   },
+   {
+    "easing": "linear",
+    "yawDelta": 323,
+    "class": "DistancePanoramaCameraMovement",
+    "yawSpeed": 7.96
+   },
+   {
+    "easing": "cubic_out",
+    "yawDelta": 18.5,
+    "class": "DistancePanoramaCameraMovement",
+    "yawSpeed": 7.96
+   }
+  ],
+  "class": "PanoramaCameraSequence",
+  "restartMovementOnUserInteraction": false
+ },
+ "automaticZoomSpeed": 10,
+ "id": "panorama_DFC061B8_CC42_E245_41D7_54F78D087AB0_camera"
+},
+{
+ "thumbnailUrl": "media/video_F61CC428_D30E_B7D5_41D6_A15FFC8ABEBE_t.jpg",
+ "scaleMode": "fit_inside",
+ "width": 1920,
+ "label": "V\u00eddeo teste",
+ "loop": false,
+ "id": "video_F61CC428_D30E_B7D5_41D6_A15FFC8ABEBE",
+ "class": "Video",
+ "height": 1080,
+ "video": {
+  "width": 1280,
+  "mp4Url": "media/video_F61CC428_D30E_B7D5_41D6_A15FFC8ABEBE.mp4",
+  "class": "VideoResource",
+  "height": 720
+ }
+},
+{
+ "initialPosition": {
+  "yaw": 0,
+  "class": "PanoramaCameraPosition",
+  "pitch": 0
+ },
+ "class": "PanoramaCamera",
+ "initialSequence": {
+  "movements": [
+   {
+    "easing": "cubic_in",
+    "yawDelta": 18.5,
+    "class": "DistancePanoramaCameraMovement",
+    "yawSpeed": 7.96
+   },
+   {
+    "easing": "linear",
+    "yawDelta": 323,
+    "class": "DistancePanoramaCameraMovement",
+    "yawSpeed": 7.96
+   },
+   {
+    "easing": "cubic_out",
+    "yawDelta": 18.5,
+    "class": "DistancePanoramaCameraMovement",
+    "yawSpeed": 7.96
+   }
+  ],
+  "class": "PanoramaCameraSequence",
+  "restartMovementOnUserInteraction": false
+ },
+ "automaticZoomSpeed": 10,
+ "id": "panorama_DFC082C8_CC42_27C6_41D2_A0AC6B299343_camera"
 },
 {
  "frames": [
@@ -336,7 +523,7 @@
     "class": "ImageResource",
     "levels": [
      {
-      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/f/0/{row}_{column}.jpg",
+      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/f/0/{row}_{column}.jpg",
       "colCount": 4,
       "class": "TiledImageResourceLevel",
       "width": 2048,
@@ -345,7 +532,7 @@
       "height": 2048
      },
      {
-      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/f/1/{row}_{column}.jpg",
+      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/f/1/{row}_{column}.jpg",
       "colCount": 2,
       "class": "TiledImageResourceLevel",
       "width": 1024,
@@ -354,7 +541,7 @@
       "height": 1024
      },
      {
-      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/f/2/{row}_{column}.jpg",
+      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/f/2/{row}_{column}.jpg",
       "colCount": 1,
       "class": "TiledImageResourceLevel",
       "width": 512,
@@ -372,7 +559,7 @@
     "class": "ImageResource",
     "levels": [
      {
-      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/u/0/{row}_{column}.jpg",
+      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/u/0/{row}_{column}.jpg",
       "colCount": 4,
       "class": "TiledImageResourceLevel",
       "width": 2048,
@@ -381,7 +568,7 @@
       "height": 2048
      },
      {
-      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/u/1/{row}_{column}.jpg",
+      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/u/1/{row}_{column}.jpg",
       "colCount": 2,
       "class": "TiledImageResourceLevel",
       "width": 1024,
@@ -390,7 +577,7 @@
       "height": 1024
      },
      {
-      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/u/2/{row}_{column}.jpg",
+      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/u/2/{row}_{column}.jpg",
       "colCount": 1,
       "class": "TiledImageResourceLevel",
       "width": 512,
@@ -407,7 +594,7 @@
     "class": "ImageResource",
     "levels": [
      {
-      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/r/0/{row}_{column}.jpg",
+      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/r/0/{row}_{column}.jpg",
       "colCount": 4,
       "class": "TiledImageResourceLevel",
       "width": 2048,
@@ -416,7 +603,7 @@
       "height": 2048
      },
      {
-      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/r/1/{row}_{column}.jpg",
+      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/r/1/{row}_{column}.jpg",
       "colCount": 2,
       "class": "TiledImageResourceLevel",
       "width": 1024,
@@ -425,7 +612,7 @@
       "height": 1024
      },
      {
-      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/r/2/{row}_{column}.jpg",
+      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/r/2/{row}_{column}.jpg",
       "colCount": 1,
       "class": "TiledImageResourceLevel",
       "width": 512,
@@ -442,7 +629,7 @@
     "class": "ImageResource",
     "levels": [
      {
-      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/b/0/{row}_{column}.jpg",
+      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/b/0/{row}_{column}.jpg",
       "colCount": 4,
       "class": "TiledImageResourceLevel",
       "width": 2048,
@@ -451,7 +638,7 @@
       "height": 2048
      },
      {
-      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/b/1/{row}_{column}.jpg",
+      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/b/1/{row}_{column}.jpg",
       "colCount": 2,
       "class": "TiledImageResourceLevel",
       "width": 1024,
@@ -460,7 +647,7 @@
       "height": 1024
      },
      {
-      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/b/2/{row}_{column}.jpg",
+      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/b/2/{row}_{column}.jpg",
       "colCount": 1,
       "class": "TiledImageResourceLevel",
       "width": 512,
@@ -473,12 +660,12 @@
      }
     ]
    },
-   "thumbnailUrl": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_t.jpg",
+   "thumbnailUrl": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_t.jpg",
    "bottom": {
     "class": "ImageResource",
     "levels": [
      {
-      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/d/0/{row}_{column}.jpg",
+      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/d/0/{row}_{column}.jpg",
       "colCount": 4,
       "class": "TiledImageResourceLevel",
       "width": 2048,
@@ -487,7 +674,7 @@
       "height": 2048
      },
      {
-      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/d/1/{row}_{column}.jpg",
+      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/d/1/{row}_{column}.jpg",
       "colCount": 2,
       "class": "TiledImageResourceLevel",
       "width": 1024,
@@ -496,7 +683,7 @@
       "height": 1024
      },
      {
-      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/d/2/{row}_{column}.jpg",
+      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/d/2/{row}_{column}.jpg",
       "colCount": 1,
       "class": "TiledImageResourceLevel",
       "width": 512,
@@ -513,7 +700,7 @@
     "class": "ImageResource",
     "levels": [
      {
-      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/l/0/{row}_{column}.jpg",
+      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/l/0/{row}_{column}.jpg",
       "colCount": 4,
       "class": "TiledImageResourceLevel",
       "width": 2048,
@@ -522,7 +709,7 @@
       "height": 2048
      },
      {
-      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/l/1/{row}_{column}.jpg",
+      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/l/1/{row}_{column}.jpg",
       "colCount": 2,
       "class": "TiledImageResourceLevel",
       "width": 1024,
@@ -531,7 +718,7 @@
       "height": 1024
      },
      {
-      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/l/2/{row}_{column}.jpg",
+      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/l/2/{row}_{column}.jpg",
       "colCount": 1,
       "class": "TiledImageResourceLevel",
       "width": 512,
@@ -547,15 +734,320 @@
   }
  ],
  "vfov": 180,
- "thumbnailUrl": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_t.jpg",
+ "thumbnailUrl": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_t.jpg",
  "hfovMin": "150%",
- "id": "panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82",
- "label": "Banheiro Su\u00edte",
+ "id": "panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4",
+ "label": "Dormit\u00f3rio 1",
  "class": "Panorama",
  "hfovMax": 130,
  "partial": false,
  "hfov": 360,
  "pitch": 0
+},
+{
+ "automaticZoomSpeed": 10,
+ "initialPosition": {
+  "yaw": -76.09,
+  "class": "PanoramaCameraPosition",
+  "pitch": -10.64
+ },
+ "timeToIdle": 2100,
+ "initialSequence": "this.sequence_F69429D5_D30D_907F_41E5_47EEC8632CF5",
+ "id": "panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_camera",
+ "class": "PanoramaCamera",
+ "idleSequence": "this.sequence_F69429D5_D30D_907F_41E5_47EEC8632CF5"
+},
+{
+ "items": [
+  {
+   "media": "this.video_F61CC428_D30E_B7D5_41D6_A15FFC8ABEBE",
+   "start": "this.MainViewerVideoPlayer.set('displayPlaybackBar', true); this.changeBackgroundWhilePlay(this.playList_F6D4E626_D30B_93DC_41D4_06BCCFDE6089, 0, '#000000'); this.pauseGlobalAudiosWhilePlayItem(this.playList_F6D4E626_D30B_93DC_41D4_06BCCFDE6089, 0)",
+   "class": "VideoPlayListItem",
+   "begin": "this.fixTogglePlayPauseButton(this.MainViewerVideoPlayer)",
+   "player": "this.MainViewerVideoPlayer"
+  }
+ ],
+ "id": "playList_F6D4E626_D30B_93DC_41D4_06BCCFDE6089",
+ "class": "PlayList"
+},
+{
+ "initialPosition": {
+  "yaw": 0,
+  "class": "PanoramaCameraPosition",
+  "pitch": 0
+ },
+ "class": "PanoramaCamera",
+ "initialSequence": {
+  "movements": [
+   {
+    "easing": "cubic_in",
+    "yawDelta": 18.5,
+    "class": "DistancePanoramaCameraMovement",
+    "yawSpeed": 7.96
+   },
+   {
+    "easing": "linear",
+    "yawDelta": 323,
+    "class": "DistancePanoramaCameraMovement",
+    "yawSpeed": 7.96
+   },
+   {
+    "easing": "cubic_out",
+    "yawDelta": 18.5,
+    "class": "DistancePanoramaCameraMovement",
+    "yawSpeed": 7.96
+   }
+  ],
+  "class": "PanoramaCameraSequence",
+  "restartMovementOnUserInteraction": false
+ },
+ "automaticZoomSpeed": 10,
+ "id": "panorama_DFBCBA72_CC42_26C5_41D4_D88AAD0BDF68_camera"
+},
+{
+ "frames": [
+  {
+   "front": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/f/0/{row}_{column}.jpg",
+      "colCount": 4,
+      "class": "TiledImageResourceLevel",
+      "width": 2048,
+      "tags": "ondemand",
+      "rowCount": 4,
+      "height": 2048
+     },
+     {
+      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/f/1/{row}_{column}.jpg",
+      "colCount": 2,
+      "class": "TiledImageResourceLevel",
+      "width": 1024,
+      "tags": "ondemand",
+      "rowCount": 2,
+      "height": 1024
+     },
+     {
+      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/f/2/{row}_{column}.jpg",
+      "colCount": 1,
+      "class": "TiledImageResourceLevel",
+      "width": 512,
+      "tags": [
+       "ondemand",
+       "preload"
+      ],
+      "rowCount": 1,
+      "height": 512
+     }
+    ]
+   },
+   "class": "CubicPanoramaFrame",
+   "top": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/u/0/{row}_{column}.jpg",
+      "colCount": 4,
+      "class": "TiledImageResourceLevel",
+      "width": 2048,
+      "tags": "ondemand",
+      "rowCount": 4,
+      "height": 2048
+     },
+     {
+      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/u/1/{row}_{column}.jpg",
+      "colCount": 2,
+      "class": "TiledImageResourceLevel",
+      "width": 1024,
+      "tags": "ondemand",
+      "rowCount": 2,
+      "height": 1024
+     },
+     {
+      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/u/2/{row}_{column}.jpg",
+      "colCount": 1,
+      "class": "TiledImageResourceLevel",
+      "width": 512,
+      "tags": [
+       "ondemand",
+       "preload"
+      ],
+      "rowCount": 1,
+      "height": 512
+     }
+    ]
+   },
+   "right": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/r/0/{row}_{column}.jpg",
+      "colCount": 4,
+      "class": "TiledImageResourceLevel",
+      "width": 2048,
+      "tags": "ondemand",
+      "rowCount": 4,
+      "height": 2048
+     },
+     {
+      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/r/1/{row}_{column}.jpg",
+      "colCount": 2,
+      "class": "TiledImageResourceLevel",
+      "width": 1024,
+      "tags": "ondemand",
+      "rowCount": 2,
+      "height": 1024
+     },
+     {
+      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/r/2/{row}_{column}.jpg",
+      "colCount": 1,
+      "class": "TiledImageResourceLevel",
+      "width": 512,
+      "tags": [
+       "ondemand",
+       "preload"
+      ],
+      "rowCount": 1,
+      "height": 512
+     }
+    ]
+   },
+   "back": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/b/0/{row}_{column}.jpg",
+      "colCount": 4,
+      "class": "TiledImageResourceLevel",
+      "width": 2048,
+      "tags": "ondemand",
+      "rowCount": 4,
+      "height": 2048
+     },
+     {
+      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/b/1/{row}_{column}.jpg",
+      "colCount": 2,
+      "class": "TiledImageResourceLevel",
+      "width": 1024,
+      "tags": "ondemand",
+      "rowCount": 2,
+      "height": 1024
+     },
+     {
+      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/b/2/{row}_{column}.jpg",
+      "colCount": 1,
+      "class": "TiledImageResourceLevel",
+      "width": 512,
+      "tags": [
+       "ondemand",
+       "preload"
+      ],
+      "rowCount": 1,
+      "height": 512
+     }
+    ]
+   },
+   "thumbnailUrl": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_t.jpg",
+   "bottom": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/d/0/{row}_{column}.jpg",
+      "colCount": 4,
+      "class": "TiledImageResourceLevel",
+      "width": 2048,
+      "tags": "ondemand",
+      "rowCount": 4,
+      "height": 2048
+     },
+     {
+      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/d/1/{row}_{column}.jpg",
+      "colCount": 2,
+      "class": "TiledImageResourceLevel",
+      "width": 1024,
+      "tags": "ondemand",
+      "rowCount": 2,
+      "height": 1024
+     },
+     {
+      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/d/2/{row}_{column}.jpg",
+      "colCount": 1,
+      "class": "TiledImageResourceLevel",
+      "width": 512,
+      "tags": [
+       "ondemand",
+       "preload"
+      ],
+      "rowCount": 1,
+      "height": 512
+     }
+    ]
+   },
+   "left": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/l/0/{row}_{column}.jpg",
+      "colCount": 4,
+      "class": "TiledImageResourceLevel",
+      "width": 2048,
+      "tags": "ondemand",
+      "rowCount": 4,
+      "height": 2048
+     },
+     {
+      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/l/1/{row}_{column}.jpg",
+      "colCount": 2,
+      "class": "TiledImageResourceLevel",
+      "width": 1024,
+      "tags": "ondemand",
+      "rowCount": 2,
+      "height": 1024
+     },
+     {
+      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/l/2/{row}_{column}.jpg",
+      "colCount": 1,
+      "class": "TiledImageResourceLevel",
+      "width": 512,
+      "tags": [
+       "ondemand",
+       "preload"
+      ],
+      "rowCount": 1,
+      "height": 512
+     }
+    ]
+   }
+  }
+ ],
+ "label": "Sala de Jantar",
+ "hfovMin": "150%",
+ "id": "panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C",
+ "overlays": [
+  "this.overlay_F33EB591_D30E_B0F7_41E8_6967186A4F80",
+  "this.overlay_F46E47B8_D37A_9035_41E4_023C435EBD89"
+ ],
+ "partial": false,
+ "adjacentPanoramas": [
+  {
+   "yaw": 66.62,
+   "class": "AdjacentPanorama",
+   "backwardYaw": -52.17,
+   "panorama": "this.panorama_DFC082C8_CC42_27C6_41D2_A0AC6B299343",
+   "distance": 1
+  },
+  {
+   "class": "AdjacentPanorama",
+   "panorama": "this.panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E"
+  }
+ ],
+ "hfov": 360,
+ "pitch": 0,
+ "vfov": 180,
+ "thumbnailUrl": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_t.jpg",
+ "class": "Panorama",
+ "hfovMax": 130
 },
 {
  "initialPosition": {
@@ -820,38 +1312,10 @@
  "pitch": 0
 },
 {
- "initialPosition": {
-  "yaw": -113.38,
-  "class": "PanoramaCameraPosition",
-  "pitch": 0
- },
- "class": "PanoramaCamera",
- "initialSequence": {
-  "movements": [
-   {
-    "easing": "cubic_in",
-    "yawDelta": 18.5,
-    "class": "DistancePanoramaCameraMovement",
-    "yawSpeed": 7.96
-   },
-   {
-    "easing": "linear",
-    "yawDelta": 323,
-    "class": "DistancePanoramaCameraMovement",
-    "yawSpeed": 7.96
-   },
-   {
-    "easing": "cubic_out",
-    "yawDelta": 18.5,
-    "class": "DistancePanoramaCameraMovement",
-    "yawSpeed": 7.96
-   }
-  ],
-  "class": "PanoramaCameraSequence",
-  "restartMovementOnUserInteraction": false
- },
- "automaticZoomSpeed": 10,
- "id": "camera_F85FBF17_D316_91FB_41CB_1938C014320C"
+ "viewerArea": "this.MainViewer",
+ "id": "MainViewerVideoPlayer",
+ "class": "VideoPlayer",
+ "displayPlaybackBar": true
 },
 {
  "initialPosition": {
@@ -886,75 +1350,6 @@
  },
  "automaticZoomSpeed": 10,
  "id": "panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_camera"
-},
-{
- "items": [
-  {
-   "media": "this.panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C",
-   "class": "PanoramaPlayListItem",
-   "begin": "this.setEndToItemIndex(this.ThumbnailList_034EDD7A_0D3B_3991_41A5_D706671923C0_playlist, 0, 1)",
-   "player": "this.MainViewerPanoramaPlayer",
-   "camera": "this.panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_camera"
-  },
-  {
-   "media": "this.panorama_DFC082C8_CC42_27C6_41D2_A0AC6B299343",
-   "class": "PanoramaPlayListItem",
-   "begin": "this.setEndToItemIndex(this.ThumbnailList_034EDD7A_0D3B_3991_41A5_D706671923C0_playlist, 1, 2)",
-   "player": "this.MainViewerPanoramaPlayer",
-   "camera": "this.panorama_DFC082C8_CC42_27C6_41D2_A0AC6B299343_camera"
-  },
-  {
-   "media": "this.panorama_DFB2B5BE_CC42_6DBD_41B7_6D4C6522A85E",
-   "class": "PanoramaPlayListItem",
-   "begin": "this.setEndToItemIndex(this.ThumbnailList_034EDD7A_0D3B_3991_41A5_D706671923C0_playlist, 2, 3)",
-   "player": "this.MainViewerPanoramaPlayer",
-   "camera": "this.panorama_DFB2B5BE_CC42_6DBD_41B7_6D4C6522A85E_camera"
-  },
-  {
-   "media": "this.panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E",
-   "class": "PanoramaPlayListItem",
-   "begin": "this.setEndToItemIndex(this.ThumbnailList_034EDD7A_0D3B_3991_41A5_D706671923C0_playlist, 3, 4)",
-   "player": "this.MainViewerPanoramaPlayer",
-   "camera": "this.panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_camera"
-  },
-  {
-   "media": "this.panorama_D835B754_CC42_2ECD_41DA_496D670D19DA",
-   "class": "PanoramaPlayListItem",
-   "begin": "this.setEndToItemIndex(this.ThumbnailList_034EDD7A_0D3B_3991_41A5_D706671923C0_playlist, 4, 5)",
-   "player": "this.MainViewerPanoramaPlayer",
-   "camera": "this.panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_camera"
-  },
-  {
-   "media": "this.panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4",
-   "class": "PanoramaPlayListItem",
-   "begin": "this.setEndToItemIndex(this.ThumbnailList_034EDD7A_0D3B_3991_41A5_D706671923C0_playlist, 5, 6)",
-   "player": "this.MainViewerPanoramaPlayer",
-   "camera": "this.panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_camera"
-  },
-  {
-   "media": "this.panorama_DFC061B8_CC42_E245_41D7_54F78D087AB0",
-   "class": "PanoramaPlayListItem",
-   "begin": "this.setEndToItemIndex(this.ThumbnailList_034EDD7A_0D3B_3991_41A5_D706671923C0_playlist, 6, 7)",
-   "player": "this.MainViewerPanoramaPlayer",
-   "camera": "this.panorama_DFC061B8_CC42_E245_41D7_54F78D087AB0_camera"
-  },
-  {
-   "media": "this.panorama_DFBCBA72_CC42_26C5_41D4_D88AAD0BDF68",
-   "class": "PanoramaPlayListItem",
-   "begin": "this.setEndToItemIndex(this.ThumbnailList_034EDD7A_0D3B_3991_41A5_D706671923C0_playlist, 7, 8)",
-   "player": "this.MainViewerPanoramaPlayer",
-   "camera": "this.panorama_DFBCBA72_CC42_26C5_41D4_D88AAD0BDF68_camera"
-  },
-  {
-   "media": "this.panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82",
-   "class": "PanoramaPlayListItem",
-   "begin": "this.setEndToItemIndex(this.ThumbnailList_034EDD7A_0D3B_3991_41A5_D706671923C0_playlist, 8, 0)",
-   "player": "this.MainViewerPanoramaPlayer",
-   "camera": "this.panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_camera"
-  }
- ],
- "id": "ThumbnailList_034EDD7A_0D3B_3991_41A5_D706671923C0_playlist",
- "class": "PlayList"
 },
 {
  "frames": [
@@ -1178,7 +1573,8 @@
  "id": "panorama_DFC082C8_CC42_27C6_41D2_A0AC6B299343",
  "overlays": [
   "this.overlay_F24FCB87_D30A_B0DB_41DF_2E129F2B9213",
-  "this.overlay_F3A0EDF8_D30B_7035_41D4_5E7CFF41C72D"
+  "this.overlay_F3A0EDF8_D30B_7035_41D4_5E7CFF41C72D",
+  "this.overlay_F57767C0_D376_B055_41CC_973D110A6F07"
  ],
  "partial": false,
  "adjacentPanoramas": [
@@ -1200,40 +1596,6 @@
  "thumbnailUrl": "media/panorama_DFC082C8_CC42_27C6_41D2_A0AC6B299343_t.jpg",
  "class": "Panorama",
  "hfovMax": 130
-},
-{
- "initialPosition": {
-  "yaw": 0,
-  "class": "PanoramaCameraPosition",
-  "pitch": 0
- },
- "class": "PanoramaCamera",
- "initialSequence": {
-  "movements": [
-   {
-    "easing": "cubic_in",
-    "yawDelta": 18.5,
-    "class": "DistancePanoramaCameraMovement",
-    "yawSpeed": 7.96
-   },
-   {
-    "easing": "linear",
-    "yawDelta": 323,
-    "class": "DistancePanoramaCameraMovement",
-    "yawSpeed": 7.96
-   },
-   {
-    "easing": "cubic_out",
-    "yawDelta": 18.5,
-    "class": "DistancePanoramaCameraMovement",
-    "yawSpeed": 7.96
-   }
-  ],
-  "class": "PanoramaCameraSequence",
-  "restartMovementOnUserInteraction": false
- },
- "automaticZoomSpeed": 10,
- "id": "panorama_DFC061B8_CC42_E245_41D7_54F78D087AB0_camera"
 },
 {
  "frames": [
@@ -1465,7 +1827,7 @@
 },
 {
  "initialPosition": {
-  "yaw": 127.83,
+  "yaw": -113.38,
   "class": "PanoramaCameraPosition",
   "pitch": 0
  },
@@ -1495,7 +1857,7 @@
   "restartMovementOnUserInteraction": false
  },
  "automaticZoomSpeed": 10,
- "id": "camera_F8544EF8_D316_9035_41CC_9A2B573932AD"
+ "id": "camera_F6F1364E_D30B_906D_41E8_D04BB14D7F89"
 },
 {
  "frames": [
@@ -1504,7 +1866,7 @@
     "class": "ImageResource",
     "levels": [
      {
-      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/f/0/{row}_{column}.jpg",
+      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/f/0/{row}_{column}.jpg",
       "colCount": 4,
       "class": "TiledImageResourceLevel",
       "width": 2048,
@@ -1513,7 +1875,7 @@
       "height": 2048
      },
      {
-      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/f/1/{row}_{column}.jpg",
+      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/f/1/{row}_{column}.jpg",
       "colCount": 2,
       "class": "TiledImageResourceLevel",
       "width": 1024,
@@ -1522,7 +1884,7 @@
       "height": 1024
      },
      {
-      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/f/2/{row}_{column}.jpg",
+      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/f/2/{row}_{column}.jpg",
       "colCount": 1,
       "class": "TiledImageResourceLevel",
       "width": 512,
@@ -1540,7 +1902,7 @@
     "class": "ImageResource",
     "levels": [
      {
-      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/u/0/{row}_{column}.jpg",
+      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/u/0/{row}_{column}.jpg",
       "colCount": 4,
       "class": "TiledImageResourceLevel",
       "width": 2048,
@@ -1549,7 +1911,7 @@
       "height": 2048
      },
      {
-      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/u/1/{row}_{column}.jpg",
+      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/u/1/{row}_{column}.jpg",
       "colCount": 2,
       "class": "TiledImageResourceLevel",
       "width": 1024,
@@ -1558,7 +1920,7 @@
       "height": 1024
      },
      {
-      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/u/2/{row}_{column}.jpg",
+      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/u/2/{row}_{column}.jpg",
       "colCount": 1,
       "class": "TiledImageResourceLevel",
       "width": 512,
@@ -1575,7 +1937,7 @@
     "class": "ImageResource",
     "levels": [
      {
-      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/r/0/{row}_{column}.jpg",
+      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/r/0/{row}_{column}.jpg",
       "colCount": 4,
       "class": "TiledImageResourceLevel",
       "width": 2048,
@@ -1584,7 +1946,7 @@
       "height": 2048
      },
      {
-      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/r/1/{row}_{column}.jpg",
+      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/r/1/{row}_{column}.jpg",
       "colCount": 2,
       "class": "TiledImageResourceLevel",
       "width": 1024,
@@ -1593,7 +1955,7 @@
       "height": 1024
      },
      {
-      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/r/2/{row}_{column}.jpg",
+      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/r/2/{row}_{column}.jpg",
       "colCount": 1,
       "class": "TiledImageResourceLevel",
       "width": 512,
@@ -1610,7 +1972,7 @@
     "class": "ImageResource",
     "levels": [
      {
-      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/b/0/{row}_{column}.jpg",
+      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/b/0/{row}_{column}.jpg",
       "colCount": 4,
       "class": "TiledImageResourceLevel",
       "width": 2048,
@@ -1619,7 +1981,7 @@
       "height": 2048
      },
      {
-      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/b/1/{row}_{column}.jpg",
+      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/b/1/{row}_{column}.jpg",
       "colCount": 2,
       "class": "TiledImageResourceLevel",
       "width": 1024,
@@ -1628,7 +1990,7 @@
       "height": 1024
      },
      {
-      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/b/2/{row}_{column}.jpg",
+      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/b/2/{row}_{column}.jpg",
       "colCount": 1,
       "class": "TiledImageResourceLevel",
       "width": 512,
@@ -1641,12 +2003,12 @@
      }
     ]
    },
-   "thumbnailUrl": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_t.jpg",
+   "thumbnailUrl": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_t.jpg",
    "bottom": {
     "class": "ImageResource",
     "levels": [
      {
-      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/d/0/{row}_{column}.jpg",
+      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/d/0/{row}_{column}.jpg",
       "colCount": 4,
       "class": "TiledImageResourceLevel",
       "width": 2048,
@@ -1655,7 +2017,7 @@
       "height": 2048
      },
      {
-      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/d/1/{row}_{column}.jpg",
+      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/d/1/{row}_{column}.jpg",
       "colCount": 2,
       "class": "TiledImageResourceLevel",
       "width": 1024,
@@ -1664,7 +2026,7 @@
       "height": 1024
      },
      {
-      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/d/2/{row}_{column}.jpg",
+      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/d/2/{row}_{column}.jpg",
       "colCount": 1,
       "class": "TiledImageResourceLevel",
       "width": 512,
@@ -1681,7 +2043,7 @@
     "class": "ImageResource",
     "levels": [
      {
-      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/l/0/{row}_{column}.jpg",
+      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/l/0/{row}_{column}.jpg",
       "colCount": 4,
       "class": "TiledImageResourceLevel",
       "width": 2048,
@@ -1690,7 +2052,7 @@
       "height": 2048
      },
      {
-      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/l/1/{row}_{column}.jpg",
+      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/l/1/{row}_{column}.jpg",
       "colCount": 2,
       "class": "TiledImageResourceLevel",
       "width": 1024,
@@ -1699,7 +2061,7 @@
       "height": 1024
      },
      {
-      "url": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_0/l/2/{row}_{column}.jpg",
+      "url": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_0/l/2/{row}_{column}.jpg",
       "colCount": 1,
       "class": "TiledImageResourceLevel",
       "width": 512,
@@ -1715,49 +2077,15 @@
   }
  ],
  "vfov": 180,
- "thumbnailUrl": "media/panorama_D835B754_CC42_2ECD_41DA_496D670D19DA_t.jpg",
+ "thumbnailUrl": "media/panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_t.jpg",
  "hfovMin": "150%",
- "id": "panorama_D835B754_CC42_2ECD_41DA_496D670D19DA",
- "label": "Banheiro Social",
+ "id": "panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82",
+ "label": "Banheiro Su\u00edte",
  "class": "Panorama",
  "hfovMax": 130,
  "partial": false,
  "hfov": 360,
  "pitch": 0
-},
-{
- "initialPosition": {
-  "yaw": 0,
-  "class": "PanoramaCameraPosition",
-  "pitch": 0
- },
- "class": "PanoramaCamera",
- "initialSequence": {
-  "movements": [
-   {
-    "easing": "cubic_in",
-    "yawDelta": 18.5,
-    "class": "DistancePanoramaCameraMovement",
-    "yawSpeed": 7.96
-   },
-   {
-    "easing": "linear",
-    "yawDelta": 323,
-    "class": "DistancePanoramaCameraMovement",
-    "yawSpeed": 7.96
-   },
-   {
-    "easing": "cubic_out",
-    "yawDelta": 18.5,
-    "class": "DistancePanoramaCameraMovement",
-    "yawSpeed": 7.96
-   }
-  ],
-  "class": "PanoramaCameraSequence",
-  "restartMovementOnUserInteraction": false
- },
- "automaticZoomSpeed": 10,
- "id": "panorama_DFC082C8_CC42_27C6_41D2_A0AC6B299343_camera"
 },
 {
  "initialPosition": {
@@ -1792,234 +2120,6 @@
  },
  "automaticZoomSpeed": 10,
  "id": "panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_camera"
-},
-{
- "frames": [
-  {
-   "front": {
-    "class": "ImageResource",
-    "levels": [
-     {
-      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/f/0/{row}_{column}.jpg",
-      "colCount": 4,
-      "class": "TiledImageResourceLevel",
-      "width": 2048,
-      "tags": "ondemand",
-      "rowCount": 4,
-      "height": 2048
-     },
-     {
-      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/f/1/{row}_{column}.jpg",
-      "colCount": 2,
-      "class": "TiledImageResourceLevel",
-      "width": 1024,
-      "tags": "ondemand",
-      "rowCount": 2,
-      "height": 1024
-     },
-     {
-      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/f/2/{row}_{column}.jpg",
-      "colCount": 1,
-      "class": "TiledImageResourceLevel",
-      "width": 512,
-      "tags": [
-       "ondemand",
-       "preload"
-      ],
-      "rowCount": 1,
-      "height": 512
-     }
-    ]
-   },
-   "class": "CubicPanoramaFrame",
-   "top": {
-    "class": "ImageResource",
-    "levels": [
-     {
-      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/u/0/{row}_{column}.jpg",
-      "colCount": 4,
-      "class": "TiledImageResourceLevel",
-      "width": 2048,
-      "tags": "ondemand",
-      "rowCount": 4,
-      "height": 2048
-     },
-     {
-      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/u/1/{row}_{column}.jpg",
-      "colCount": 2,
-      "class": "TiledImageResourceLevel",
-      "width": 1024,
-      "tags": "ondemand",
-      "rowCount": 2,
-      "height": 1024
-     },
-     {
-      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/u/2/{row}_{column}.jpg",
-      "colCount": 1,
-      "class": "TiledImageResourceLevel",
-      "width": 512,
-      "tags": [
-       "ondemand",
-       "preload"
-      ],
-      "rowCount": 1,
-      "height": 512
-     }
-    ]
-   },
-   "right": {
-    "class": "ImageResource",
-    "levels": [
-     {
-      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/r/0/{row}_{column}.jpg",
-      "colCount": 4,
-      "class": "TiledImageResourceLevel",
-      "width": 2048,
-      "tags": "ondemand",
-      "rowCount": 4,
-      "height": 2048
-     },
-     {
-      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/r/1/{row}_{column}.jpg",
-      "colCount": 2,
-      "class": "TiledImageResourceLevel",
-      "width": 1024,
-      "tags": "ondemand",
-      "rowCount": 2,
-      "height": 1024
-     },
-     {
-      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/r/2/{row}_{column}.jpg",
-      "colCount": 1,
-      "class": "TiledImageResourceLevel",
-      "width": 512,
-      "tags": [
-       "ondemand",
-       "preload"
-      ],
-      "rowCount": 1,
-      "height": 512
-     }
-    ]
-   },
-   "back": {
-    "class": "ImageResource",
-    "levels": [
-     {
-      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/b/0/{row}_{column}.jpg",
-      "colCount": 4,
-      "class": "TiledImageResourceLevel",
-      "width": 2048,
-      "tags": "ondemand",
-      "rowCount": 4,
-      "height": 2048
-     },
-     {
-      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/b/1/{row}_{column}.jpg",
-      "colCount": 2,
-      "class": "TiledImageResourceLevel",
-      "width": 1024,
-      "tags": "ondemand",
-      "rowCount": 2,
-      "height": 1024
-     },
-     {
-      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/b/2/{row}_{column}.jpg",
-      "colCount": 1,
-      "class": "TiledImageResourceLevel",
-      "width": 512,
-      "tags": [
-       "ondemand",
-       "preload"
-      ],
-      "rowCount": 1,
-      "height": 512
-     }
-    ]
-   },
-   "thumbnailUrl": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_t.jpg",
-   "bottom": {
-    "class": "ImageResource",
-    "levels": [
-     {
-      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/d/0/{row}_{column}.jpg",
-      "colCount": 4,
-      "class": "TiledImageResourceLevel",
-      "width": 2048,
-      "tags": "ondemand",
-      "rowCount": 4,
-      "height": 2048
-     },
-     {
-      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/d/1/{row}_{column}.jpg",
-      "colCount": 2,
-      "class": "TiledImageResourceLevel",
-      "width": 1024,
-      "tags": "ondemand",
-      "rowCount": 2,
-      "height": 1024
-     },
-     {
-      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/d/2/{row}_{column}.jpg",
-      "colCount": 1,
-      "class": "TiledImageResourceLevel",
-      "width": 512,
-      "tags": [
-       "ondemand",
-       "preload"
-      ],
-      "rowCount": 1,
-      "height": 512
-     }
-    ]
-   },
-   "left": {
-    "class": "ImageResource",
-    "levels": [
-     {
-      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/l/0/{row}_{column}.jpg",
-      "colCount": 4,
-      "class": "TiledImageResourceLevel",
-      "width": 2048,
-      "tags": "ondemand",
-      "rowCount": 4,
-      "height": 2048
-     },
-     {
-      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/l/1/{row}_{column}.jpg",
-      "colCount": 2,
-      "class": "TiledImageResourceLevel",
-      "width": 1024,
-      "tags": "ondemand",
-      "rowCount": 2,
-      "height": 1024
-     },
-     {
-      "url": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_0/l/2/{row}_{column}.jpg",
-      "colCount": 1,
-      "class": "TiledImageResourceLevel",
-      "width": 512,
-      "tags": [
-       "ondemand",
-       "preload"
-      ],
-      "rowCount": 1,
-      "height": 512
-     }
-    ]
-   }
-  }
- ],
- "vfov": 180,
- "thumbnailUrl": "media/panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4_t.jpg",
- "hfovMin": "150%",
- "id": "panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4",
- "label": "Dormit\u00f3rio 1",
- "class": "Panorama",
- "hfovMax": 130,
- "partial": false,
- "hfov": 360,
- "pitch": 0
 },
 {
  "frames": [
@@ -2238,50 +2338,268 @@
    }
   }
  ],
- "vfov": 180,
- "thumbnailUrl": "media/panorama_DFB2B5BE_CC42_6DBD_41B7_6D4C6522A85E_t.jpg",
+ "label": "Sacada e Churrasqueira",
  "hfovMin": "150%",
  "id": "panorama_DFB2B5BE_CC42_6DBD_41B7_6D4C6522A85E",
- "label": "Sacada e Churrasqueira",
- "class": "Panorama",
- "hfovMax": 130,
+ "overlays": [
+  "this.overlay_F50A3415_D317_97FC_41CE_97EA474842C8",
+  "this.overlay_F9522F06_D316_91DD_41C0_23904D8570AE"
+ ],
  "partial": false,
+ "adjacentPanoramas": [
+  {
+   "class": "AdjacentPanorama",
+   "panorama": "this.panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C"
+  }
+ ],
  "hfov": 360,
- "pitch": 0
+ "pitch": 0,
+ "vfov": 180,
+ "thumbnailUrl": "media/panorama_DFB2B5BE_CC42_6DBD_41B7_6D4C6522A85E_t.jpg",
+ "class": "Panorama",
+ "hfovMax": 130
 },
 {
- "initialPosition": {
-  "yaw": 0,
-  "class": "PanoramaCameraPosition",
-  "pitch": 0
- },
- "class": "PanoramaCamera",
- "initialSequence": {
-  "movements": [
-   {
-    "easing": "cubic_in",
-    "yawDelta": 18.5,
-    "class": "DistancePanoramaCameraMovement",
-    "yawSpeed": 7.96
+ "frames": [
+  {
+   "front": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/f/0/{row}_{column}.jpg",
+      "colCount": 4,
+      "class": "TiledImageResourceLevel",
+      "width": 2048,
+      "tags": "ondemand",
+      "rowCount": 4,
+      "height": 2048
+     },
+     {
+      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/f/1/{row}_{column}.jpg",
+      "colCount": 2,
+      "class": "TiledImageResourceLevel",
+      "width": 1024,
+      "tags": "ondemand",
+      "rowCount": 2,
+      "height": 1024
+     },
+     {
+      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/f/2/{row}_{column}.jpg",
+      "colCount": 1,
+      "class": "TiledImageResourceLevel",
+      "width": 512,
+      "tags": [
+       "ondemand",
+       "preload"
+      ],
+      "rowCount": 1,
+      "height": 512
+     }
+    ]
    },
-   {
-    "easing": "linear",
-    "yawDelta": 323,
-    "class": "DistancePanoramaCameraMovement",
-    "yawSpeed": 7.96
+   "class": "CubicPanoramaFrame",
+   "top": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/u/0/{row}_{column}.jpg",
+      "colCount": 4,
+      "class": "TiledImageResourceLevel",
+      "width": 2048,
+      "tags": "ondemand",
+      "rowCount": 4,
+      "height": 2048
+     },
+     {
+      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/u/1/{row}_{column}.jpg",
+      "colCount": 2,
+      "class": "TiledImageResourceLevel",
+      "width": 1024,
+      "tags": "ondemand",
+      "rowCount": 2,
+      "height": 1024
+     },
+     {
+      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/u/2/{row}_{column}.jpg",
+      "colCount": 1,
+      "class": "TiledImageResourceLevel",
+      "width": 512,
+      "tags": [
+       "ondemand",
+       "preload"
+      ],
+      "rowCount": 1,
+      "height": 512
+     }
+    ]
    },
-   {
-    "easing": "cubic_out",
-    "yawDelta": 18.5,
-    "class": "DistancePanoramaCameraMovement",
-    "yawSpeed": 7.96
+   "right": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/r/0/{row}_{column}.jpg",
+      "colCount": 4,
+      "class": "TiledImageResourceLevel",
+      "width": 2048,
+      "tags": "ondemand",
+      "rowCount": 4,
+      "height": 2048
+     },
+     {
+      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/r/1/{row}_{column}.jpg",
+      "colCount": 2,
+      "class": "TiledImageResourceLevel",
+      "width": 1024,
+      "tags": "ondemand",
+      "rowCount": 2,
+      "height": 1024
+     },
+     {
+      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/r/2/{row}_{column}.jpg",
+      "colCount": 1,
+      "class": "TiledImageResourceLevel",
+      "width": 512,
+      "tags": [
+       "ondemand",
+       "preload"
+      ],
+      "rowCount": 1,
+      "height": 512
+     }
+    ]
+   },
+   "back": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/b/0/{row}_{column}.jpg",
+      "colCount": 4,
+      "class": "TiledImageResourceLevel",
+      "width": 2048,
+      "tags": "ondemand",
+      "rowCount": 4,
+      "height": 2048
+     },
+     {
+      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/b/1/{row}_{column}.jpg",
+      "colCount": 2,
+      "class": "TiledImageResourceLevel",
+      "width": 1024,
+      "tags": "ondemand",
+      "rowCount": 2,
+      "height": 1024
+     },
+     {
+      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/b/2/{row}_{column}.jpg",
+      "colCount": 1,
+      "class": "TiledImageResourceLevel",
+      "width": 512,
+      "tags": [
+       "ondemand",
+       "preload"
+      ],
+      "rowCount": 1,
+      "height": 512
+     }
+    ]
+   },
+   "thumbnailUrl": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_t.jpg",
+   "bottom": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/d/0/{row}_{column}.jpg",
+      "colCount": 4,
+      "class": "TiledImageResourceLevel",
+      "width": 2048,
+      "tags": "ondemand",
+      "rowCount": 4,
+      "height": 2048
+     },
+     {
+      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/d/1/{row}_{column}.jpg",
+      "colCount": 2,
+      "class": "TiledImageResourceLevel",
+      "width": 1024,
+      "tags": "ondemand",
+      "rowCount": 2,
+      "height": 1024
+     },
+     {
+      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/d/2/{row}_{column}.jpg",
+      "colCount": 1,
+      "class": "TiledImageResourceLevel",
+      "width": 512,
+      "tags": [
+       "ondemand",
+       "preload"
+      ],
+      "rowCount": 1,
+      "height": 512
+     }
+    ]
+   },
+   "left": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/l/0/{row}_{column}.jpg",
+      "colCount": 4,
+      "class": "TiledImageResourceLevel",
+      "width": 2048,
+      "tags": "ondemand",
+      "rowCount": 4,
+      "height": 2048
+     },
+     {
+      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/l/1/{row}_{column}.jpg",
+      "colCount": 2,
+      "class": "TiledImageResourceLevel",
+      "width": 1024,
+      "tags": "ondemand",
+      "rowCount": 2,
+      "height": 1024
+     },
+     {
+      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0/l/2/{row}_{column}.jpg",
+      "colCount": 1,
+      "class": "TiledImageResourceLevel",
+      "width": 512,
+      "tags": [
+       "ondemand",
+       "preload"
+      ],
+      "rowCount": 1,
+      "height": 512
+     }
+    ]
    }
-  ],
-  "class": "PanoramaCameraSequence",
-  "restartMovementOnUserInteraction": false
- },
- "automaticZoomSpeed": 10,
- "id": "panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_camera"
+  }
+ ],
+ "label": "Circula\u00e7\u00e3o",
+ "hfovMin": "100%",
+ "id": "panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E",
+ "overlays": [
+  "this.overlay_F41A9AF8_D30E_9035_41D3_6DD0F95708A1",
+  "this.overlay_F5F46F3B_D30D_702B_41D4_F968E6DED12B"
+ ],
+ "partial": false,
+ "adjacentPanoramas": [
+  {
+   "class": "AdjacentPanorama",
+   "panorama": "this.panorama_DFC37E27_CC42_7E4B_41BD_2D95D45128D4"
+  },
+  {
+   "class": "AdjacentPanorama",
+   "panorama": "this.panorama_D835B754_CC42_2ECD_41DA_496D670D19DA"
+  }
+ ],
+ "hfov": 360,
+ "pitch": 0,
+ "vfov": 180,
+ "thumbnailUrl": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_t.jpg",
+ "class": "Panorama",
+ "hfovMax": 130
 },
 {
  "class": "PanoramaPlayer",
@@ -2361,281 +2679,7 @@
   "restartMovementOnUserInteraction": false
  },
  "automaticZoomSpeed": 10,
- "id": "panorama_DFBCBA72_CC42_26C5_41D4_D88AAD0BDF68_camera"
-},
-{
- "initialPosition": {
-  "yaw": 0,
-  "class": "PanoramaCameraPosition",
-  "pitch": 0
- },
- "class": "PanoramaCamera",
- "initialSequence": {
-  "movements": [
-   {
-    "easing": "cubic_in",
-    "yawDelta": 18.5,
-    "class": "DistancePanoramaCameraMovement",
-    "yawSpeed": 7.96
-   },
-   {
-    "easing": "linear",
-    "yawDelta": 323,
-    "class": "DistancePanoramaCameraMovement",
-    "yawSpeed": 7.96
-   },
-   {
-    "easing": "cubic_out",
-    "yawDelta": 18.5,
-    "class": "DistancePanoramaCameraMovement",
-    "yawSpeed": 7.96
-   }
-  ],
-  "class": "PanoramaCameraSequence",
-  "restartMovementOnUserInteraction": false
- },
- "automaticZoomSpeed": 10,
  "id": "panorama_DFC23F38_CC42_1E45_41C2_6CE7F5887F82_camera"
-},
-{
- "frames": [
-  {
-   "front": {
-    "class": "ImageResource",
-    "levels": [
-     {
-      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/f/0/{row}_{column}.jpg",
-      "colCount": 4,
-      "class": "TiledImageResourceLevel",
-      "width": 2048,
-      "tags": "ondemand",
-      "rowCount": 4,
-      "height": 2048
-     },
-     {
-      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/f/1/{row}_{column}.jpg",
-      "colCount": 2,
-      "class": "TiledImageResourceLevel",
-      "width": 1024,
-      "tags": "ondemand",
-      "rowCount": 2,
-      "height": 1024
-     },
-     {
-      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/f/2/{row}_{column}.jpg",
-      "colCount": 1,
-      "class": "TiledImageResourceLevel",
-      "width": 512,
-      "tags": [
-       "ondemand",
-       "preload"
-      ],
-      "rowCount": 1,
-      "height": 512
-     }
-    ]
-   },
-   "class": "CubicPanoramaFrame",
-   "top": {
-    "class": "ImageResource",
-    "levels": [
-     {
-      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/u/0/{row}_{column}.jpg",
-      "colCount": 4,
-      "class": "TiledImageResourceLevel",
-      "width": 2048,
-      "tags": "ondemand",
-      "rowCount": 4,
-      "height": 2048
-     },
-     {
-      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/u/1/{row}_{column}.jpg",
-      "colCount": 2,
-      "class": "TiledImageResourceLevel",
-      "width": 1024,
-      "tags": "ondemand",
-      "rowCount": 2,
-      "height": 1024
-     },
-     {
-      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/u/2/{row}_{column}.jpg",
-      "colCount": 1,
-      "class": "TiledImageResourceLevel",
-      "width": 512,
-      "tags": [
-       "ondemand",
-       "preload"
-      ],
-      "rowCount": 1,
-      "height": 512
-     }
-    ]
-   },
-   "right": {
-    "class": "ImageResource",
-    "levels": [
-     {
-      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/r/0/{row}_{column}.jpg",
-      "colCount": 4,
-      "class": "TiledImageResourceLevel",
-      "width": 2048,
-      "tags": "ondemand",
-      "rowCount": 4,
-      "height": 2048
-     },
-     {
-      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/r/1/{row}_{column}.jpg",
-      "colCount": 2,
-      "class": "TiledImageResourceLevel",
-      "width": 1024,
-      "tags": "ondemand",
-      "rowCount": 2,
-      "height": 1024
-     },
-     {
-      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/r/2/{row}_{column}.jpg",
-      "colCount": 1,
-      "class": "TiledImageResourceLevel",
-      "width": 512,
-      "tags": [
-       "ondemand",
-       "preload"
-      ],
-      "rowCount": 1,
-      "height": 512
-     }
-    ]
-   },
-   "back": {
-    "class": "ImageResource",
-    "levels": [
-     {
-      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/b/0/{row}_{column}.jpg",
-      "colCount": 4,
-      "class": "TiledImageResourceLevel",
-      "width": 2048,
-      "tags": "ondemand",
-      "rowCount": 4,
-      "height": 2048
-     },
-     {
-      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/b/1/{row}_{column}.jpg",
-      "colCount": 2,
-      "class": "TiledImageResourceLevel",
-      "width": 1024,
-      "tags": "ondemand",
-      "rowCount": 2,
-      "height": 1024
-     },
-     {
-      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/b/2/{row}_{column}.jpg",
-      "colCount": 1,
-      "class": "TiledImageResourceLevel",
-      "width": 512,
-      "tags": [
-       "ondemand",
-       "preload"
-      ],
-      "rowCount": 1,
-      "height": 512
-     }
-    ]
-   },
-   "thumbnailUrl": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_t.jpg",
-   "bottom": {
-    "class": "ImageResource",
-    "levels": [
-     {
-      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/d/0/{row}_{column}.jpg",
-      "colCount": 4,
-      "class": "TiledImageResourceLevel",
-      "width": 2048,
-      "tags": "ondemand",
-      "rowCount": 4,
-      "height": 2048
-     },
-     {
-      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/d/1/{row}_{column}.jpg",
-      "colCount": 2,
-      "class": "TiledImageResourceLevel",
-      "width": 1024,
-      "tags": "ondemand",
-      "rowCount": 2,
-      "height": 1024
-     },
-     {
-      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/d/2/{row}_{column}.jpg",
-      "colCount": 1,
-      "class": "TiledImageResourceLevel",
-      "width": 512,
-      "tags": [
-       "ondemand",
-       "preload"
-      ],
-      "rowCount": 1,
-      "height": 512
-     }
-    ]
-   },
-   "left": {
-    "class": "ImageResource",
-    "levels": [
-     {
-      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/l/0/{row}_{column}.jpg",
-      "colCount": 4,
-      "class": "TiledImageResourceLevel",
-      "width": 2048,
-      "tags": "ondemand",
-      "rowCount": 4,
-      "height": 2048
-     },
-     {
-      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/l/1/{row}_{column}.jpg",
-      "colCount": 2,
-      "class": "TiledImageResourceLevel",
-      "width": 1024,
-      "tags": "ondemand",
-      "rowCount": 2,
-      "height": 1024
-     },
-     {
-      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0/l/2/{row}_{column}.jpg",
-      "colCount": 1,
-      "class": "TiledImageResourceLevel",
-      "width": 512,
-      "tags": [
-       "ondemand",
-       "preload"
-      ],
-      "rowCount": 1,
-      "height": 512
-     }
-    ]
-   }
-  }
- ],
- "label": "Sala de Jantar",
- "hfovMin": "150%",
- "id": "panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C",
- "overlays": [
-  "this.overlay_F33EB591_D30E_B0F7_41E8_6967186A4F80"
- ],
- "partial": false,
- "adjacentPanoramas": [
-  {
-   "yaw": 66.62,
-   "class": "AdjacentPanorama",
-   "backwardYaw": -52.17,
-   "panorama": "this.panorama_DFC082C8_CC42_27C6_41D2_A0AC6B299343",
-   "distance": 1
-  }
- ],
- "hfov": 360,
- "pitch": 0,
- "vfov": 180,
- "thumbnailUrl": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_t.jpg",
- "class": "Panorama",
- "hfovMax": 130
 },
 {
  "progressBarBorderSize": 0,
@@ -3228,6 +3272,133 @@
  "cursor": "hand"
 },
 {
+ "class": "PanoramaCameraSequence",
+ "restartMovementDelay": 2100,
+ "movements": [
+  {
+   "targetYaw": -0.82,
+   "class": "TargetPanoramaCameraMovement",
+   "path": "shortest",
+   "targetPitch": -10.23,
+   "pitchSpeed": 17.05,
+   "easing": "cubic_in_out",
+   "yawSpeed": 33.25
+  },
+  {
+   "targetYaw": 89.59,
+   "class": "TargetPanoramaCameraMovement",
+   "path": "shortest",
+   "targetPitch": -12.68,
+   "pitchSpeed": 17.05,
+   "easing": "cubic_in_out",
+   "yawSpeed": 33.25
+  },
+  {
+   "targetYaw": -167.32,
+   "class": "TargetPanoramaCameraMovement",
+   "path": "shortest",
+   "targetPitch": -19.23,
+   "pitchSpeed": 2.07,
+   "easing": "cubic_in_out",
+   "yawSpeed": 3.15
+  }
+ ],
+ "id": "sequence_F69429D5_D30D_907F_41E5_47EEC8632CF5",
+ "restartMovementOnUserInteraction": true
+},
+{
+ "useHandCursor": true,
+ "maps": [
+  {
+   "hfov": 21.67,
+   "yaw": 66.62,
+   "class": "HotspotPanoramaOverlayMap",
+   "image": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_1_HS_0_0_0_map.gif",
+      "width": 61,
+      "class": "ImageResourceLevel",
+      "height": 16
+     }
+    ]
+   },
+   "pitch": -30.89
+  }
+ ],
+ "class": "HotspotPanoramaOverlay",
+ "areas": [
+  {
+   "click": "this.startPanoramaWithCamera(this.panorama_DFC082C8_CC42_27C6_41D2_A0AC6B299343, this.camera_F6FA3639_D30B_9034_41C6_B585FCA3AAD8); this.mainPlayList.set('selectedIndex', 1)",
+   "class": "HotspotPanoramaOverlayArea",
+   "mapColor": "#FF0000"
+  }
+ ],
+ "rollOverDisplay": false,
+ "enabledInCardboard": true,
+ "items": [
+  {
+   "distance": 100,
+   "image": "this.AnimatedImageResource_F9B8AE5D_D315_906F_41E6_C913B80BF6A7",
+   "pitch": -30.89,
+   "hfov": 21.67,
+   "yaw": 66.62,
+   "class": "HotspotPanoramaOverlayImage"
+  }
+ ],
+ "id": "overlay_F33EB591_D30E_B0F7_41E8_6967186A4F80",
+ "data": {
+  "label": "Circle 03c"
+ }
+},
+{
+ "useHandCursor": true,
+ "maps": [
+  {
+   "hfov": 14.85,
+   "yaw": -49.7,
+   "class": "HotspotPanoramaOverlayMap",
+   "image": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0_HS_2_0_0_map.gif",
+      "width": 39,
+      "class": "ImageResourceLevel",
+      "height": 16
+     }
+    ]
+   },
+   "pitch": -36.2
+  }
+ ],
+ "class": "HotspotPanoramaOverlay",
+ "areas": [
+  {
+   "click": "this.mainPlayList.set('selectedIndex', 3)",
+   "class": "HotspotPanoramaOverlayArea",
+   "mapColor": "#FF0000"
+  }
+ ],
+ "rollOverDisplay": false,
+ "enabledInCardboard": true,
+ "items": [
+  {
+   "distance": 100,
+   "image": "this.AnimatedImageResource_F60662E8_D375_9055_41E7_D92FB756D7C2",
+   "pitch": -36.2,
+   "hfov": 14.85,
+   "yaw": -49.7,
+   "class": "HotspotPanoramaOverlayImage"
+  }
+ ],
+ "id": "overlay_F46E47B8_D37A_9035_41E4_023C435EBD89",
+ "data": {
+  "label": "Image"
+ }
+},
+{
  "useHandCursor": true,
  "maps": [
   {
@@ -3251,7 +3422,7 @@
  "class": "HotspotPanoramaOverlay",
  "areas": [
   {
-   "click": "this.startPanoramaWithCamera(this.panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C, this.camera_F85FBF17_D316_91FB_41CB_1938C014320C); this.mainPlayList.set('selectedIndex', 0)",
+   "click": "this.startPanoramaWithCamera(this.panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C, this.camera_F6F1364E_D30B_906D_41E8_D04BB14D7F89); this.mainPlayList.set('selectedIndex', 0)",
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000"
   }
@@ -3317,6 +3488,228 @@
  "id": "overlay_F3A0EDF8_D30B_7035_41D4_5E7CFF41C72D",
  "data": {
   "label": "Circle 03c"
+ }
+},
+{
+ "blending": 0,
+ "id": "overlay_F57767C0_D376_B055_41CC_973D110A6F07",
+ "loop": false,
+ "image": {
+  "class": "ImageResource",
+  "levels": [
+   {
+    "url": "media/overlay_F57767C0_D376_B055_41CC_973D110A6F07_t.jpg",
+    "width": 1920,
+    "class": "ImageResourceLevel",
+    "height": 1080
+   }
+  ]
+ },
+ "pitch": -3.23,
+ "useHandCursor": true,
+ "roll": 0.68,
+ "click": "this.overlay_F57767C0_D376_B055_41CC_973D110A6F07.play()",
+ "hfov": 18.14,
+ "autoplay": false,
+ "yaw": 19.01,
+ "vfov": 9.74,
+ "rotationY": 7.93,
+ "rotationX": 3.29,
+ "enabledInCardboard": true,
+ "class": "VideoPanoramaOverlay",
+ "videoVisibleOnStop": false,
+ "distance": 50,
+ "data": {
+  "label": "Video"
+ },
+ "video": {
+  "width": 1280,
+  "mp4Url": "media/video_F61CC428_D30E_B7D5_41D6_A15FFC8ABEBE.mp4",
+  "class": "VideoResource",
+  "height": 720
+ }
+},
+{
+ "useHandCursor": true,
+ "maps": [
+  {
+   "hfov": 22.42,
+   "yaw": 1.13,
+   "class": "HotspotPanoramaOverlayMap",
+   "image": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_DFB2B5BE_CC42_6DBD_41B7_6D4C6522A85E_0_HS_0_0_0_map.gif",
+      "width": 30,
+      "class": "ImageResourceLevel",
+      "height": 16
+     }
+    ]
+   },
+   "pitch": -17.59
+  }
+ ],
+ "class": "HotspotPanoramaOverlay",
+ "areas": [
+  {
+   "click": "this.mainPlayList.set('selectedIndex', 0)",
+   "class": "HotspotPanoramaOverlayArea",
+   "mapColor": "#FF0000"
+  }
+ ],
+ "rollOverDisplay": false,
+ "enabledInCardboard": true,
+ "items": [
+  {
+   "distance": 100,
+   "image": "this.AnimatedImageResource_F4C95DB4_D30E_903C_41E8_8D20887AD8C9",
+   "pitch": -17.59,
+   "hfov": 22.42,
+   "yaw": 1.13,
+   "class": "HotspotPanoramaOverlayImage"
+  }
+ ],
+ "id": "overlay_F50A3415_D317_97FC_41CE_97EA474842C8",
+ "data": {
+  "label": "Arrow 05"
+ }
+},
+{
+ "useHandCursor": true,
+ "maps": [
+  {
+   "hfov": 14.46,
+   "yaw": -83.86,
+   "class": "HotspotPanoramaOverlayMap",
+   "image": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_DFB2B5BE_CC42_6DBD_41B7_6D4C6522A85E_0_HS_1_0_0_map.gif",
+      "width": 26,
+      "class": "ImageResourceLevel",
+      "height": 16
+     }
+    ]
+   },
+   "pitch": -45
+  }
+ ],
+ "class": "HotspotPanoramaOverlay",
+ "areas": [
+  {
+   "class": "HotspotPanoramaOverlayArea",
+   "mapColor": "#FF0000"
+  }
+ ],
+ "rollOverDisplay": false,
+ "enabledInCardboard": true,
+ "items": [
+  {
+   "distance": 50,
+   "image": "this.AnimatedImageResource_F4C89DB4_D30E_903C_41DF_F0A26D8957CC",
+   "pitch": -45,
+   "hfov": 14.46,
+   "yaw": -83.86,
+   "class": "HotspotPanoramaOverlayImage"
+  }
+ ],
+ "id": "overlay_F9522F06_D316_91DD_41C0_23904D8570AE",
+ "data": {
+  "label": "Arrow 02b Left-Up"
+ }
+},
+{
+ "useHandCursor": true,
+ "maps": [
+  {
+   "hfov": 17,
+   "yaw": -78.21,
+   "class": "HotspotPanoramaOverlayMap",
+   "image": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0_HS_0_0_0_map.gif",
+      "width": 39,
+      "class": "ImageResourceLevel",
+      "height": 16
+     }
+    ]
+   },
+   "pitch": -55.64
+  }
+ ],
+ "class": "HotspotPanoramaOverlay",
+ "areas": [
+  {
+   "click": "this.mainPlayList.set('selectedIndex', 5)",
+   "class": "HotspotPanoramaOverlayArea",
+   "mapColor": "#FF0000"
+  }
+ ],
+ "rollOverDisplay": false,
+ "enabledInCardboard": true,
+ "items": [
+  {
+   "distance": 100,
+   "image": "this.AnimatedImageResource_F44F5660_D30D_B055_41DE_04C5B91F4092",
+   "pitch": -55.64,
+   "hfov": 17,
+   "yaw": -78.21,
+   "class": "HotspotPanoramaOverlayImage"
+  }
+ ],
+ "id": "overlay_F41A9AF8_D30E_9035_41D3_6DD0F95708A1",
+ "data": {
+  "label": "Circle 03b"
+ }
+},
+{
+ "useHandCursor": true,
+ "maps": [
+  {
+   "hfov": 17.36,
+   "yaw": 82.56,
+   "class": "HotspotPanoramaOverlayMap",
+   "image": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0_HS_1_0_0_map.gif",
+      "width": 39,
+      "class": "ImageResourceLevel",
+      "height": 16
+     }
+    ]
+   },
+   "pitch": -54.82
+  }
+ ],
+ "class": "HotspotPanoramaOverlay",
+ "areas": [
+  {
+   "click": "this.mainPlayList.set('selectedIndex', 4)",
+   "class": "HotspotPanoramaOverlayArea",
+   "mapColor": "#FF0000"
+  }
+ ],
+ "rollOverDisplay": false,
+ "enabledInCardboard": true,
+ "items": [
+  {
+   "distance": 100,
+   "image": "this.AnimatedImageResource_F44F3660_D30D_B055_41D4_D1A7ADD2C004",
+   "pitch": -54.82,
+   "hfov": 17.36,
+   "yaw": 82.56,
+   "class": "HotspotPanoramaOverlayImage"
+  }
+ ],
+ "id": "overlay_F5F46F3B_D30D_702B_41D4_F968E6DED12B",
+ "data": {
+  "label": "Circle 03b"
  }
 },
 {
@@ -3406,52 +3799,6 @@
  },
  "shadow": false,
  "cursor": "hand"
-},
-{
- "useHandCursor": true,
- "maps": [
-  {
-   "hfov": 21.67,
-   "yaw": 66.62,
-   "class": "HotspotPanoramaOverlayMap",
-   "image": {
-    "class": "ImageResource",
-    "levels": [
-     {
-      "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_1_HS_0_0_0_map.gif",
-      "width": 61,
-      "class": "ImageResourceLevel",
-      "height": 16
-     }
-    ]
-   },
-   "pitch": -30.89
-  }
- ],
- "class": "HotspotPanoramaOverlay",
- "areas": [
-  {
-   "click": "this.startPanoramaWithCamera(this.panorama_DFC082C8_CC42_27C6_41D2_A0AC6B299343, this.camera_F8544EF8_D316_9035_41CC_9A2B573932AD); this.mainPlayList.set('selectedIndex', 1)",
-   "class": "HotspotPanoramaOverlayArea",
-   "mapColor": "#FF0000"
-  }
- ],
- "rollOverDisplay": false,
- "enabledInCardboard": true,
- "items": [
-  {
-   "distance": 100,
-   "image": "this.AnimatedImageResource_F9B8AE5D_D315_906F_41E6_C913B80BF6A7",
-   "pitch": -30.89,
-   "hfov": 21.67,
-   "yaw": 66.62,
-   "class": "HotspotPanoramaOverlayImage"
-  }
- ],
- "id": "overlay_F33EB591_D30E_B0F7_41E8_6967186A4F80",
- "data": {
-  "label": "Circle 03c"
- }
 },
 {
  "scrollBarOpacity": 0.5,
@@ -4200,6 +4547,38 @@
  "frameDuration": 41,
  "levels": [
   {
+   "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_1_HS_0_0.png",
+   "width": 1080,
+   "class": "ImageResourceLevel",
+   "height": 420
+  }
+ ],
+ "id": "AnimatedImageResource_F9B8AE5D_D315_906F_41E6_C913B80BF6A7",
+ "rowCount": 6,
+ "frameCount": 24
+},
+{
+ "colCount": 4,
+ "class": "AnimatedImageResource",
+ "frameDuration": 41,
+ "levels": [
+  {
+   "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_0_HS_2_0.png",
+   "width": 1080,
+   "class": "ImageResourceLevel",
+   "height": 660
+  }
+ ],
+ "id": "AnimatedImageResource_F60662E8_D375_9055_41E7_D92FB756D7C2",
+ "rowCount": 6,
+ "frameCount": 24
+},
+{
+ "colCount": 4,
+ "class": "AnimatedImageResource",
+ "frameDuration": 41,
+ "levels": [
+  {
    "url": "media/panorama_DFC082C8_CC42_27C6_41D2_A0AC6B299343_0_HS_0_0.png",
    "width": 1000,
    "class": "ImageResourceLevel",
@@ -4232,13 +4611,61 @@
  "frameDuration": 41,
  "levels": [
   {
-   "url": "media/panorama_DFC30CDB_CC42_63FB_41CD_E1329877661C_1_HS_0_0.png",
-   "width": 1080,
+   "url": "media/panorama_DFB2B5BE_CC42_6DBD_41B7_6D4C6522A85E_0_HS_0_0.png",
+   "width": 460,
    "class": "ImageResourceLevel",
-   "height": 420
+   "height": 360
   }
  ],
- "id": "AnimatedImageResource_F9B8AE5D_D315_906F_41E6_C913B80BF6A7",
+ "id": "AnimatedImageResource_F4C95DB4_D30E_903C_41E8_8D20887AD8C9",
+ "rowCount": 6,
+ "frameCount": 24
+},
+{
+ "colCount": 4,
+ "class": "AnimatedImageResource",
+ "frameDuration": 41,
+ "levels": [
+  {
+   "url": "media/panorama_DFB2B5BE_CC42_6DBD_41B7_6D4C6522A85E_0_HS_1_0.png",
+   "width": 400,
+   "class": "ImageResourceLevel",
+   "height": 360
+  }
+ ],
+ "id": "AnimatedImageResource_F4C89DB4_D30E_903C_41DF_F0A26D8957CC",
+ "rowCount": 6,
+ "frameCount": 24
+},
+{
+ "colCount": 4,
+ "class": "AnimatedImageResource",
+ "frameDuration": 41,
+ "levels": [
+  {
+   "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0_HS_0_0.png",
+   "width": 1080,
+   "class": "ImageResourceLevel",
+   "height": 660
+  }
+ ],
+ "id": "AnimatedImageResource_F44F5660_D30D_B055_41DE_04C5B91F4092",
+ "rowCount": 6,
+ "frameCount": 24
+},
+{
+ "colCount": 4,
+ "class": "AnimatedImageResource",
+ "frameDuration": 41,
+ "levels": [
+  {
+   "url": "media/panorama_DFB006A3_CC42_6E4B_41E7_EC02A4E7EB3E_0_HS_1_0.png",
+   "width": 1080,
+   "class": "ImageResourceLevel",
+   "height": 660
+  }
+ ],
+ "id": "AnimatedImageResource_F44F3660_D30D_B055_41D4_D1A7ADD2C004",
  "rowCount": 6,
  "frameCount": 24
 },
